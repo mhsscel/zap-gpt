@@ -1,6 +1,7 @@
 {
   "name": "zap-gpt",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -13,6 +14,9 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "openai": "^3.1.0",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "puppeteer-extra-plugin-user-data-dir": "^2.4.0",
+    "puppeteer-extra-plugin-user-preferences": "^2.4.0",
     "venom-bot": "^4.3.7"
   }
 }
