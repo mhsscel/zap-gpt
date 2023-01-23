@@ -6,7 +6,8 @@ dotenv.config()
 
 create({
     session: 'Chat-GPT',
-    multidevice: true
+    multidevice: true,
+    logQR: true
 })
     .then((client) => start(client))
     .catch((erro) => {
